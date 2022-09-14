@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    border: 5px solid black;
+    padding: 5px 5px 5px 5px;
+    /* margin is the space outside of an element border betwwen that element  */
+    margin: 50px 10px 10px 10px;
+
+}

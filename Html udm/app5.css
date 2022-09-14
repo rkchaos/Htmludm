@@ -1,0 +1,15 @@
+/* h1+h2 is when we give them color the second thing get the color but it only use when the to element is up and down */
+h1+h2{
+    color:red;
+}
+footer>h1{
+    color:blue;
+}
+/* attibute selector */
+input[type="password"]{
+    color: blueviolet;
+
+}
+#raj{
+    color: violet;
+}

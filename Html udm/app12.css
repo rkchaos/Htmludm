@@ -1,0 +1,45 @@
+h1{
+ border: 5px;
+ border-color: blue;
+    border-style: solid;
+}
+/* #kumar:hover{
+    border: 5px;
+    border-color: tan;
+    border-style: solid;
+} */
+/* div:hover{
+    border: 5px;
+    border-color: blueviolet;
+    border-style: solid;
+} */
+/* p:hover{
+    border: 5px;
+    border-style: solid;
+    border-color: springgreen;
+} */
+/* #Raj{
+    color: royalblue;
+} */
+p{
+    border: 5px;
+    border-color: pink;
+    border-style: solid;
+}
+div{
+    text-align: center;
+height: 60px;
+    border: 3px;
+    border-color: aqua;
+    border-style: solid;
+    box-sizing: border-box;
+    border-left: 9px;
+    /* margin: 20px; */
+}
+/* we can do it in one line */
+section{
+ 
+    border: 5px solid black;
+    /* The better way to give border radius is % */
+    border-radius: 20%;
+}

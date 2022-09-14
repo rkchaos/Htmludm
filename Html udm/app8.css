@@ -1,0 +1,30 @@
+h2,h3,h4{
+    color: steelblue;
+
+}
+h2::selection{
+color: springgreen;
+}
+h3::first-letter{
+   
+   font-size: 50px;
+}
+
+h3{
+    text-transform: uppercase;
+}
+/* Here the html give id more preference than class than element */
+/* The preference table of html is inline element  than id   than class than element */
+#kumar{
+    color: yellow;
+}
+h3{
+    color: red;
+}
+button:hover{
+    color: red;
+}
+button:active{
+    color: violet;
+    background-color: aqua;
+}

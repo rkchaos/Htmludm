@@ -1,0 +1,25 @@
+section{
+    width:500px;
+    height: 500px;
+background-color: magenta;
+}
+#rgba{
+width: 50%;
+height: 50%;
+/* 0 is  completely transparent and 1 is not completely transparent  */
+/* background-color: rgba(255, 255, 255, 1); */
+background-color: rgba(255, 255, 255, 0.4);
+}
+
+#raj{
+    width:500px;
+    height: 500px;
+background-color: yellow;
+}
+#Opacity{
+    width: 50%;
+height: 50%;
+background-color: rgba(24, 99, 53, 0.7);
+/* opacity goes 0 to 1 and at 0 its completely abolised the paragraph*/
+opacity: 1;
+}

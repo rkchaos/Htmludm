@@ -1,0 +1,17 @@
+h2{
+    color: red;
+}
+footer{
+    color: red;
+}
+/* inherit is basically a parent here the p is in footer if we change the colour of footer than we write in paragraph inherit the footer colour is comes in p same to same */
+/* border have not any inherit property */
+p{
+    color: inherit;
+}
+form{
+    color: lightblue
+}
+input{
+    color: inherit;
+}

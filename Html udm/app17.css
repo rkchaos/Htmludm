@@ -1,0 +1,41 @@
+ /* make square bracket */
+ section div{
+    width: 100px;
+    height:100px;
+    display: inline-block;
+background-color: blueviolet;
+border: 2px solid black;
+margin: 0px 20px;
+
+}
+#middle{
+    background-color: brown;
+}
+/* In static position nothing happen */
+#static #middle{
+    position: static;
+    top: 20px;
+}
+/* In relative position the element change their position */
+#relative #middle{
+    position: relative;
+    top: 50px;
+   left: 20px;
+}
+
+#absolute{
+    position:relative;
+}
+
+#absolute #middle{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+/* The fixed position is it fixed the content and and when we scroll down its also comes down  */
+/* #fixed #middle{
+    position: fixed;
+    top: 0px;
+    left: 200px;
+} */
+
